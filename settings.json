@@ -1,0 +1,112 @@
+{
+    "homepage": "https://tixcraft.com",
+    "browser": "chrome",
+    "language": "\u7e41\u9ad4\u4e2d\u6587",
+    "ticket_number": 1,
+    "refresh_datetime": "",
+    "port": 16888,
+    "ocr_captcha": {
+        "enable": true,
+        "beta": true,
+        "force_submit": true,
+        "image_source": "canvas"
+    },
+    "webdriver_type": "Dogg",
+    "date_auto_select": {
+        "enable": true,
+        "date_keyword": "\"21\",\"22\"",
+        "mode": "random"
+    },
+    "area_auto_select": {
+        "enable": true,
+        "mode": "random",
+        "area_keyword": ""
+    },
+    "keyword_exclude": "\"\u8f2a\u6905\",\"\u8eab\u969c\",\"\u8eab\u5fc3 \u969c\u7919\",\"Restricted View\",\"Wheelchair\",\"\u71c8\u67f1\u906e\u853d\",\"\u8996\u7dda\u4e0d\u5b8c\u6574\",\"\u611b\u5fc3\"",
+    "kktix": {
+        "auto_press_next_step_button": true,
+        "auto_fill_ticket_number": true,
+        "max_dwell_time": 90
+    },
+    "cityline": {
+        "cityline_queue_retry": true
+    },
+    "tixcraft": {
+        "pass_date_is_sold_out": false,
+        "auto_reload_coming_soon_page": true
+    },
+    "advanced": {
+        "play_sound": {
+            "ticket": true,
+            "order": true,
+            "filename": "ding-dong.wav"
+        },
+        "email": {
+            "ticket": true,
+            "order": true,
+            "apppassword": "",
+            "sender_email": "",
+            "receiver_email": "",
+            "subject": "\u865f\u5916",
+            "message": "\u9019\u662f\u4e00\u5c01\u5beb\u7d66\u81ea\u5df1\u7684\u4fe1\u3002"
+        },
+        "tixcraft_sid": "",
+        "ibonqware": "",
+        "facebook_account": "",
+        "kktix_account": "dennispigpig5@gmail.com",
+        "fami_account": "",
+        "cityline_account": "Kktix981210",
+        "urbtix_account": "",
+        "hkticketing_account": "",
+        "kham_account": "G221991569",
+        "ticket_account": "G220611900",
+        "udn_account": "",
+        "ticketplus_account": "978831862",
+        "facebook_password": "",
+        "kktix_password": "WXlme2oqJiQkIyI=",
+        "fami_password": "",
+        "urbtix_password": "",
+        "cityline_password": "",
+        "hkticketing_password": "",
+        "kham_password": "WXlme2pSKyojICMi",
+        "ticket_password": "WXlme2orKiMgIw==",
+        "udn_password": "",
+        "ticketplus_password": "WXlme2oqJiQkIyI=",
+        "facebook_password_plaintext": "",
+        "kktix_password_plaintext": "",
+        "fami_password_plaintext": "",
+        "urbtix_password_plaintext": "",
+        "cityline_password_plaintext": "",
+        "hkticketing_password_plaintext": "",
+        "kham_password_plaintext": "",
+        "ticket_password_plaintext": "",
+        "udn_password_plaintext": "",
+        "ticketplus_password_plaintext": "",
+        "chrome_extension": true,
+        "disable_adjacent_seat": false,
+        "adblock": true,
+        "hide_some_image": false,
+        "block_facebook_network": false,
+        "headless": false,
+        "verbose": false,
+        "auto_guess_options": false,
+        "user_guess_string": "\"BA670557074\"",
+        "remote_url": "\"http://127.0.0.1:16888/\"",
+        "disable_auto_update_config": false,
+        "telegram_enable": true,
+        "telegram_bot_token": "8322399509:AAF0tsylOIbn4BdRIniarNvarLUdOO4hgyk",
+        "telegram_chat_id": "-5259432856",
+        "auto_reload_page_interval": 1.5,
+        "auto_reload_random_mode": true,
+        "auto_reload_random_range": "0.4",
+        "auto_reload_overheat_count": 4,
+        "auto_reload_overheat_cd": 1.0,
+        "reset_browser_interval": 0,
+        "proxy_server_port": "",
+        "window_size": "480,1024",
+        "idle_keyword": "",
+        "resume_keyword": "\"00:00\"",
+        "idle_keyword_second": "\"11\"",
+        "resume_keyword_second": "\"01\""
+    }
+}
